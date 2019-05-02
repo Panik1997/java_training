@@ -11,9 +11,6 @@ public class NumberIntoListAndArray {
 
 
         for(Integer x : firstList1){
-            if(k == size1){
-                break;
-            }
             arrayOfList[k++] = x;
         }
 
