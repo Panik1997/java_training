@@ -3,7 +3,7 @@ import java.lang.String;
 import java.util.Collections;
 import java.util.ArrayList;
 
-public class NumbersAndArrays {
+public class NumberIntoListAndArray {
 
     private static void ConvertToArray(int size1, List<Integer> firstList1){
         int k = 0;
@@ -20,7 +20,7 @@ public class NumbersAndArrays {
         System.out.println(Arrays.toString(arrayOfList));
     }
 
-    private static List<Integer> ConvertToList(int number, int size){
+    private static List<Integer> ConvertToList(int number){
         List<Integer> firstList = new ArrayList<Integer>();
 
         for(; number != 0; number /= 10){
@@ -40,8 +40,8 @@ public class NumbersAndArrays {
 
             int howLong = String.valueOf(y).length();
 
-            System.out.println("List of a single numbers: " + ConvertToList(y, howLong));
+            System.out.println("List of a single numbers: " + ConvertToList(y));
             System.out.print("And now an Array of a single numbers made by using List: ");
-            ConvertToArray(y, ConvertToList(y, howLong));
+            ConvertToArray(howLong, ConvertToList(y));
     }
 }
