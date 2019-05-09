@@ -2,7 +2,7 @@ import java.util.*;
 import java.lang.String;
 import java.util.ArrayList;
 
-public class Main {
+public class BinOct {
 
     private static List<Integer> binary(int k) {
         List<Integer> tablica = new ArrayList<Integer>();
