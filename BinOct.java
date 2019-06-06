@@ -1,6 +1,5 @@
 import java.util.*;
 import java.lang.String;
-import java.util.ArrayList;
 
 public class BinOct {
 
